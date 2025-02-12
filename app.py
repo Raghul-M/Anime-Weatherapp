@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("Weather App 🌤️")
 
-api_key = ''
+api_key = st.secrets['api_key']
 city = st.text_input("Enter city name : ")
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&APPID={api_key}"
 
