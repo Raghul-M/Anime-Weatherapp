@@ -1,0 +1,6 @@
+[theme]
+base="dark"
+primaryColor="#1E90FF"  # Customize accent color
+backgroundColor="#0E1117"  # Dark background
+secondaryBackgroundColor="#262730"  # Secondary color
+textColor="#FFFFFF"  # White text
